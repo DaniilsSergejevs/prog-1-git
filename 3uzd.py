@@ -1,0 +1,8 @@
+print("Ievadi podestu daudzumu:")
+podesta_daudzums = int (input())
+finieru_daudzums = int (6*podesta_daudzums)
+listes_daudzums = int (12*podesta_daudzums)
+sturis_daudzums = int (8*podesta_daudzums)
+print("Finieru daudzums:",finieru_daudzums)
+print("Listes daudzums:",listes_daudzums)
+print("Sturis daudzums:",sturis_daudzums)
