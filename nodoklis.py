@@ -1,0 +1,10 @@
+tomati_cena = float (0.90*0.15)
+miklu_cena = float (5*0.5)
+desu_cena = float (3.20*0.2) 
+sieru_cena = float (7*0.4)
+ketcupu_cena = float (4*0.1)
+senu_cena = float (8*0.1)
+summa = float (tomati_cena+miklu_cena+desu_cena+sieru_cena+ketcupu_cena+senu_cena)
+picu_cena = 11
+nodoklis = ((11-summa)/100*15)
+print("Nodoklis:",'%0.2f' % nodoklis)
